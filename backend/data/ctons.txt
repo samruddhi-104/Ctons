@@ -1,0 +1,96 @@
+Company Name: Ctons Solution
+
+About Company:
+Ctons Solution is a technology-driven company focused on providing innovative digital and AI-powered solutions for businesses. We specialize in building scalable applications, intelligent systems, and modern digital experiences for startups and enterprises, especially targeting Tier 2 and Tier 3 markets.
+
+Mission:
+To empower businesses with affordable, intelligent, and scalable technology solutions.
+
+Vision:
+To become a leading AI-first service company delivering high-impact digital transformation.
+
+Core Services:
+
+1. Web Development:
+We design and develop responsive, modern, and high-performance websites using technologies like React, Tailwind CSS, and modern frameworks. Our websites are SEO-friendly and optimized for performance.
+
+2. Mobile App Development:
+We build cross-platform mobile applications using Flutter, ensuring fast performance and a seamless user experience across Android and iOS devices.
+
+3. AI & Machine Learning Solutions:
+We provide custom AI solutions including:
+- Chatbots (RAG-based, GPT-powered)
+- NLP applications (text classification, NER)
+- Predictive analytics
+- AI automation tools
+
+4. Generative AI Solutions:
+We create advanced AI systems such as:
+- AI influencers (video-based)
+- Text-to-video systems
+- Image generation tools
+- AI content automation
+
+5. UI/UX Design:
+We design user-friendly and modern interfaces using Figma, ensuring great user experience and visual appeal.
+
+6. Backend Development:
+We develop secure and scalable backend systems using:
+- Flask
+- FastAPI
+- Node.js
+
+7. Data Analytics & Visualization:
+We help businesses make data-driven decisions using:
+- Power BI
+- Dashboards
+- Data visualization tools
+
+8. Custom Software Development:
+We build tailored software solutions based on business needs, including ERP systems, dashboards, and automation tools.
+
+9. Startup MVP Development:
+We help startups build MVPs quickly with scalable architecture and modern technologies.
+
+Industries We Serve:
+- Healthcare
+- Education
+- E-commerce
+- Finance
+- Local Businesses (Tier 2 & Tier 3 focus)
+
+Technologies We Use:
+- Frontend: React, HTML, CSS, Tailwind
+- Backend: Flask, FastAPI, Node.js
+- AI/ML: Python, SpaCy, Transformers
+- Mobile: Flutter
+- Database: MongoDB, MySQL
+- Tools: Git, Docker
+
+Why Choose Ctons Solution:
+- Affordable pricing
+- Focus on real-world problems
+- AI-first approach
+- Fast delivery
+- Custom solutions
+
+Contact Information:
+Email: contact@ctonssolution.com
+Website: www.ctonssolution.com
+
+Frequently Asked Questions:
+
+Q1: What services does Ctons Solution provide?
+A: We provide web development, mobile apps, AI solutions, data analytics, and custom software development.
+
+Q2: Do you build AI chatbots?
+A: Yes, we build RAG-based and GPT-powered chatbots customized for business needs.
+
+Q3: Do you work with startups?
+A: Yes, we specialize in helping startups build MVPs and scale their products.
+
+Q4: What technologies do you use?
+A: We use React, Flutter, Python, FastAPI, and modern AI frameworks.
+
+Q5: Do you provide support after development?
+A: Yes, we provide maintenance and support services.
