@@ -1,7 +1,10 @@
 fastapi
-uvicorn
+uvicorn[standard]
 langchain
+langchain-community
+langchain-core
 openai
 faiss-cpu
 tiktoken
 python-dotenv
+pydantic

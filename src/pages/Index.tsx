@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import HeroTwo from "@/components/HeroTwo";
 import ServicesSection from "@/components/ServicesSection";
 import CommitmentSection from "@/components/CommitmentSection";
-import ContactSection from "@/components/ContactSection";
+import ContactSection from "@/components/ContactSection"; // ✅ FIXED
 import Footer from "@/components/Footer";
 
 const Index = () => (

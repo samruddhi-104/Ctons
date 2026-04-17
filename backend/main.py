@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.embeddings import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 
@@ -14,37 +14,44 @@ load_dotenv()
 
 app = FastAPI()
 
-# ✅ CORS ENABLE (IMPORTANT)
+# ✅ CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # for dev (later restrict)
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Load company data
+# ✅ Load data
 with open("data/ctons.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
-# Split into chunks
+# ✅ Split text
 splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 docs = splitter.create_documents([text])
 
-# Create vector DB
+# ✅ Embeddings
 embeddings = OpenAIEmbeddings()
+
+# ✅ Vector DB
 vectorstore = FAISS.from_documents(docs, embeddings)
 
-# Create RAG chain
+# ✅ LLM
+llm = ChatOpenAI(model="gpt-3.5-turbo")
+
+# ✅ Retrieval QA (stable)
 qa_chain = RetrievalQA.from_chain_type(
-    llm=ChatOpenAI(model="gpt-4o-mini"),
+    llm=llm,
     retriever=vectorstore.as_retriever()
 )
 
+# ✅ Request model
 class Query(BaseModel):
     question: str
 
+# ✅ API
 @app.post("/chat")
 def chat(query: Query):
-    answer = qa_chain.run(query.question)
-    return {"answer": answer}
+    response = qa_chain.run(query.question)
+    return {"answer": response}

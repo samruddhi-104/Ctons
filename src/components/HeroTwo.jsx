@@ -18,7 +18,7 @@ const HeroTwo = () => {
 
         {/* RIGHT SIDE - TEXT */}
         <div className="text-center md:text-left">
-          <h2 className="text-2xl md:text-3xl font-semibold text-green-900 leading-snug mb-6">
+          <h2 className="text-3xl md:text-4xl font-semibold text-green-900 leading-snug mb-10">
             Trusted expertise in carbon markets <br />
             and green energy solutions.
           </h2>
