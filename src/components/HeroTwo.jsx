@@ -24,7 +24,7 @@ const HeroTwo = () => {
           </h2>
 
           <p className="text-gray-700 text-sm md:text-base leading-relaxed mb-4">
-            C-Toss Solution is a sustainability focused advisory firm dedicated
+            C-Tons Solution is a sustainability focused advisory firm dedicated
             to advancing climate action through the voluntary carbon market. We
             support renewable energy generators and businesses by providing
             end-to-end solutions in carbon credit and I-REC registration,

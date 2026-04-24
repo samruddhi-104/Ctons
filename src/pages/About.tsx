@@ -26,12 +26,12 @@ const About = () => {
       <Navbar />
 
       {/* Hero Banner */}
-      <section className="pt-24 pb-12 bg-background text-center">
+      <section className="pt-24 pb-12 bg-white text-center">
         <div className="section-padding max-w-4xl mx-auto animate-fade-up">
-          <h2 className="text-xl md:text-3xl font-heading font-semibold text-primary italic mb-4">
+          <h2 className="text-xl md:text-3xl font-heading font-semibold text-green-700 italic mb-4">
             A Sustainable Future Begins Today
           </h2>
-          <p className="text-lg md:text-2xl font-heading font-bold text-foreground leading-snug">
+          <p className="text-lg md:text-2xl font-heading font-bold text-gray-900 leading-snug">
             Lead the Change.<br />
             We Enable Responsible Climate Action.
           </p>
@@ -39,7 +39,7 @@ const About = () => {
       </section>
 
       {/* About Hero */}
-      <section ref={heroRef} className="bg-green-dark">
+      <section ref={heroRef} className="bg-green-900">
         <div
           className={`max-w-6xl mx-auto grid md:grid-cols-2 transition-all duration-700 ${
             heroVisible
@@ -48,16 +48,20 @@ const About = () => {
           }`}
         >
           <div className="p-10 md:p-14 flex flex-col justify-center">
-            <p className="text-primary-foreground/70 text-sm uppercase tracking-widest mb-4">
+            <p className="text-white/60 text-sm uppercase tracking-widest mb-4">
               About us
             </p>
 
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-5">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-5">
               Transforming Carbon into Opportunity
             </h2>
 
-            <p className="text-primary-foreground/80 text-lg md:text-xl leading-relaxed mb-5">
-              C-Tons Solution is committed to advancing climate responsibility through trusted carbon market solutions. We support renewable energy generators and businesses in unlocking the value of carbon credits and I-RECs while maintaining transparency, integrity, and measurable impact. Our goal is to simplify complex carbon processes and help organizations move confidently toward their sustainability commitments.
+            {/* FIXED TEXT (no highlight issue) */}
+            <p className="text-white/90 text-lg md:text-xl leading-relaxed mb-5">
+              C-Tons Solution is committed to advancing climate responsibility through trusted carbon market solutions. 
+              We support renewable energy generators and businesses in unlocking the value of carbon credits and I-RECs 
+              while maintaining transparency, integrity, and measurable impact. Our goal is to simplify complex carbon 
+              processes and help organizations move confidently toward their sustainability commitments.
             </p>
 
             <div className="flex flex-col sm:flex-row items-start gap-5">
@@ -68,8 +72,10 @@ const About = () => {
                 onError={handleImgError}
               />
 
-              <p className="text-primary-foreground/80 text-lg md:text-xl italic leading-relaxed self-center">
-                We are dedicated to helping our clients reduce their environmental impact and create a more sustainable future.
+              {/* CLEAN STYLE INSTEAD OF BLUE BLOCK */}
+              <p className="text-white/80 text-lg md:text-xl italic leading-relaxed border-l-4 border-green-400 pl-4">
+                We are dedicated to helping our clients reduce their environmental impact 
+                and create a more sustainable future.
               </p>
             </div>
           </div>
@@ -85,11 +91,11 @@ const About = () => {
         </div>
       </section>
 
-      {/* Mission & Vision Section with LEFT VERTICAL IMAGE */}
-      <section className="py-20 md:py-28 bg-green-dark/95 relative overflow-hidden">
+      {/* Mission & Vision */}
+      <section className="py-20 md:py-28 bg-green-900/95">
         <div className="max-w-7xl mx-auto grid md:grid-cols-[180px_1fr] gap-10 px-4 md:px-8">
           
-          {/* LEFT VERTICAL IMAGE */}
+          {/* Side Image */}
           <div className="hidden md:flex justify-center">
             <img
               src={ah4}
@@ -99,9 +105,8 @@ const About = () => {
             />
           </div>
 
-          {/* RIGHT CONTENT */}
           <div>
-            <h2 className="text-2xl md:text-3xl font-heading font-bold text-primary-foreground text-center mb-20">
+            <h2 className="text-2xl md:text-3xl font-heading font-bold text-white text-center mb-20">
               Leading the Path Toward a Cleaner, Greener Tomorrow
             </h2>
 
@@ -114,25 +119,17 @@ const About = () => {
                   : "opacity-0 -translate-x-10"
               }`}
             >
-              <div className="bg-background/10 backdrop-blur-sm rounded-2xl p-10 border border-primary/20 shadow-lg">
-                <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6 text-center">
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border border-white/20 shadow-lg">
+                <h3 className="text-2xl font-heading font-bold text-white mb-6 text-center">
                   Our Mission
                 </h3>
 
-                <ol className="text-primary-foreground/90 text-base space-y-4 list-decimal list-inside">
-                  <li>
-                    To provide single source to companies that demands based
-                    sustainability solutions.
-                  </li>
-                  <li>
-                    To foster the sustainability through collaborative efforts.
-                  </li>
-                  <li>
-                    To collaborate with companies that need to participate in
-                    meeting the objectives of Paris agreement.
-                  </li>
-                  <li>To promote awareness and adoption of sustainable practices across industries through education and strategic guidance.</li>
-                   <li>To leverage technology and data-driven insights to deliver efficient, scalable, and impactful climate solutions.</li>
+                <ol className="text-white/90 text-base space-y-4 list-decimal list-inside">
+                  <li>To provide single source sustainability solutions.</li>
+                  <li>To foster sustainability through collaboration.</li>
+                  <li>To support Paris Agreement objectives.</li>
+                  <li>To promote sustainable practices across industries.</li>
+                  <li>To leverage technology for impactful climate solutions.</li>
                 </ol>
               </div>
 
@@ -160,23 +157,17 @@ const About = () => {
                 onError={handleImgError}
               />
 
-              <div className="bg-background/10 backdrop-blur-sm rounded-2xl p-10 border border-primary/20 shadow-lg">
-                <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6 text-center">
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 border border-white/20 shadow-lg">
+                <h3 className="text-2xl font-heading font-bold text-white mb-6 text-center">
                   Our Vision
                 </h3>
 
-                <ol className="text-primary-foreground/90 text-base space-y-4 list-decimal list-inside">
-                  <li>
-                    To become a trusted leader in the voluntary carbon market.
-                  </li>
-                  <li>
-                    To empower businesses to achieve carbon neutrality.
-                  </li>
-                  <li>
-                    To contribute meaningfully toward global climate goals.
-                  </li>
-                  <li>To drive innovation in carbon management by integrating advanced technologies and global best practices. </li>
-                  <li>To build a future where sustainability becomes a core business value across all sectors and geographies.</li>
+                <ol className="text-white/90 text-base space-y-4 list-decimal list-inside">
+                  <li>To lead in the voluntary carbon market.</li>
+                  <li>To enable carbon neutrality for businesses.</li>
+                  <li>To contribute to global climate goals.</li>
+                  <li>To innovate in carbon management systems.</li>
+                  <li>To make sustainability a global business standard.</li>
                 </ol>
               </div>
             </div>
