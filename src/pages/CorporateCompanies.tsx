@@ -39,13 +39,13 @@ const CorporateCompanies = () => {
             <p className="text-base md:text-lg leading-relaxed mb-4 text-white/90">
               We help corporate organizations procure and retire I-RECs to demonstrate their commitment to renewable energy consumption and sustainability goals. Through verified certificates, companies can transparently claim their renewable electricity usage even when connected to a conventional power grid. 
 
-              C-Tons Solution works closely with businesses to participate in the Indian Carbon Market through project development, registration, and carbon credit advisory. 
+              C-Tons Solutions works closely with businesses to participate in the Indian Carbon Market through project development, registration, and carbon credit advisory. 
 
-              C-Tons Solution ensures the entire process—from sourcing the certificates to retirement—is handled in compliance with international standards, helping businesses strengthen their ESG and sustainability reporting.
+              C-Tons Solutions ensures the entire process—from sourcing the certificates to retirement—is handled in compliance with international standards, helping businesses strengthen their ESG and sustainability reporting.
             </p>
 
             <p className="text-base md:text-lg leading-relaxed text-white/90">
-              C-Tons Solution works closely with businesses to participate in the Indian Carbon Market through project development, registration, and carbon credit advisory.
+              C-Tons Solutions works closely with businesses to participate in the Indian Carbon Market through project development, registration, and carbon credit advisory.
             </p>
           </div>
 
@@ -56,14 +56,14 @@ const CorporateCompanies = () => {
       <section className="bg-[#2f5f56] text-white py-20 px-6 text-center">
         
         <h3 className="mb-12 text-2xl md:text-3xl font-semibold">
-          Benefits of Choosing C-Tons Solution for Corporate Companies
+          Benefits of Choosing C-Tons Solutions for Corporate Companies
         </h3>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {[
             {
               title: "Verified Renewable Energy Procurement",
-              desc: "C-Tons Solution helps organizations procure certified renewable energy through I-RECs, enabling businesses to confidently claim renewable energy usage while supporting global clean energy development."
+              desc: "C-Tons Solutions helps organizations procure certified renewable energy through I-RECs, enabling businesses to confidently claim renewable energy usage while supporting global clean energy development."
             },
             {
               title: "Transparent Certificate Management",
@@ -75,7 +75,7 @@ const CorporateCompanies = () => {
             },
             {
               title: "Alignment with Global Sustainability Standards",
-              desc: "C-Tons Solution ensures your renewable energy initiatives align with international sustainability frameworks, strengthening credibility in ESG reporting and corporate responsibility."
+              desc: "C-Tons Solutions ensures your renewable energy initiatives align with international sustainability frameworks, strengthening credibility in ESG reporting and corporate responsibility."
             },
             {
               title: "Strengthening Corporate Sustainability Leadership",
@@ -83,7 +83,7 @@ const CorporateCompanies = () => {
             },
             {
               title: "Supporting the Transition to Clean Energy",
-              desc: "By partnering with C-Tons Solution, your business actively contributes to the global shift toward renewable energy and a low-carbon economy."
+              desc: "By partnering with C-Tons Solutions, your business actively contributes to the global shift toward renewable energy and a low-carbon economy."
             }
           ].map((item, i) => (
             <div

@@ -20,7 +20,7 @@ const ProjectDevelopers = () => {
             </h2>
 
             <p className="text-base md:text-lg leading-relaxed mb-5 text-white/90">
-              C-Tons Solution assists renewable energy project developers in registering their projects under the International Renewable Energy Certificate (I-REC) system. Our team guides developers through the complete process, including eligibility assessment, documentation preparation, and coordination with the issuing body. Once the project is registered, we facilitate the issuance of renewable energy certificates based on verified electricity generation. 
+              C-Tons Solutions assists renewable energy project developers in registering their projects under the International Renewable Energy Certificate (I-REC) system. Our team guides developers through the complete process, including eligibility assessment, documentation preparation, and coordination with the issuing body. Once the project is registered, we facilitate the issuance of renewable energy certificates based on verified electricity generation. 
             </p>
 
             <p className="text-base md:text-lg leading-relaxed text-white/90">

@@ -27,7 +27,7 @@ const EnergyAudits: React.FC = () => {
           <Link to="/" className="flex items-center gap-4">
             <img src={logo} alt="C-Tons Solution" className="w-16 h-16 rounded-full object-contain" />
             <div>
-              <h1 className="text-2xl font-bold text-gray-900 leading-tight">C-Tons Solution</h1>
+              <h1 className="text-2xl font-bold text-gray-900 leading-tight">C-Tons Solutions</h1>
               <p className="text-xs text-gray-500 italic">Passion meets Purpose</p>
             </div>
           </Link>
@@ -70,11 +70,11 @@ const EnergyAudits: React.FC = () => {
             </h1>
             
             <h2 className="text-xl md:text-2xl font-semibold text-gray-700 mb-6">
-              Why choose C-Tons Solution To Optimize Energy Efficiency
+              Why choose C-Tons Solutions To Optimize Energy Efficiency
             </h2>
             
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              C-Tons Solution conducts energy assessments to identify inefficiencies in energy consumption across facilities and operations.
+              C-Tons Solutions conducts energy assessments to identify inefficiencies in energy consumption across facilities and operations.
             </p>
             
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -105,7 +105,7 @@ const EnergyAudits: React.FC = () => {
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center md:text-left drop-shadow-sm">
-              Benefits of Choosing C-Tons Solution
+              Benefits of Choosing C-Tons Solutions
             </h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -138,7 +138,7 @@ const EnergyAudits: React.FC = () => {
       <section className="py-24 px-6 md:px-20 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-[#2d5a4c] mb-3">
-            Why Choose C-Tons Solution For Energy Audits
+            Why Choose C-Tons Solutions For Energy Audits
           </h2>
           <p className="text-xl text-[#5a8a7a] font-medium mb-16">
             Sustainable Energy Strategies for Future-Ready Businesses.
@@ -148,7 +148,7 @@ const EnergyAudits: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-16 gap-x-10">
               <InfoBlock title="Comprehensive Energy Assessment" desc="We provide end-to-end energy audit services, analyzing energy consumption across facilities, equipment, and operations to identify inefficiencies and opportunities for optimization." />
               <InfoBlock title="Tailored Energy Efficiency Strategies" desc="Our team develops customized energy-saving solutions aligned with your business operations, integrating efficient technologies and sustainable practices to reduce energy consumption." />
-              <InfoBlock title="Compliance with Energy & Sustainability Standards" desc="C-Tons ensures your energy management practices align with recognized standards and sustainability frameworks, supporting regulatory compliance and ESG goals." />
+              <InfoBlock title="Compliance with Energy & Sustainability Standards" desc="C-Tons Solutions ensures your energy management practices align with recognized standards and sustainability frameworks, supporting regulatory compliance and ESG goals." />
               <InfoBlock title="Expertise You Can Trust" desc="With strong expertise in energy management, we leverage advanced tools and industry insights to deliver practical, cost effective solutions that drive measurable efficiency improvements." />
             </div>
 

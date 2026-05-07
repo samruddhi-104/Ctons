@@ -60,7 +60,7 @@ export default function CarbonFootprintAccounting() {
       {/* Benefits strip */}
       <section className="bg-[#c6dca8] px-6 py-10">
         <h2 className="mb-8 text-center text-2xl font-medium text-[#4f6b38]">
-          Benefits of Choosing C-Tons Solution for Carbon Footprinting
+          Benefits of Choosing C-Tons Solutions for Carbon Footprinting
         </h2>
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {benefits.map((item, idx) => (

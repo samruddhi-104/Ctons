@@ -58,7 +58,7 @@ const About = () => {
 
             {/* FIXED TEXT (no highlight issue) */}
             <p className="text-white/90 text-lg md:text-xl leading-relaxed mb-5">
-              C-Tons Solution is committed to advancing climate responsibility through trusted carbon market solutions. 
+              C-Tons Solutions is committed to advancing climate responsibility through trusted carbon market solutions. 
               We support renewable energy generators and businesses in unlocking the value of carbon credits and I-RECs 
               while maintaining transparency, integrity, and measurable impact. Our goal is to simplify complex carbon 
               processes and help organizations move confidently toward their sustainability commitments.

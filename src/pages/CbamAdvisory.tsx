@@ -29,7 +29,7 @@ const CBAMAdvisor: React.FC = () => {
           <Link to="/" className="flex items-center gap-4">
             <img src={logo} alt="C-Tons Solution" className="w-16 h-16 rounded-full object-contain" />
             <div>
-              <h1 className="text-2xl font-bold text-gray-900 leading-tight">C-Tons Solution</h1>
+              <h1 className="text-2xl font-bold text-gray-900 leading-tight">C-Tons Solutions</h1>
               <p className="text-xs text-gray-500 italic">Passion meets Purpose</p>
             </div>
           </Link>

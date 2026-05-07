@@ -57,14 +57,10 @@ const ContactSection = () => {
               {/* Mail with Light Green Icon */}
               <span className="flex items-center gap-3">
                 <Mail size={26} className="text-emerald-400" />
-                sy@gmail.com
+                info@ctons-solutions.com
               </span>
 
-              {/* Phone with Light Green Icon */}
-              <span className="flex items-center gap-3">
-                <Phone size={26} className="text-emerald-400" />
-                9112378892
-              </span>
+           
             </div>
           </div>
         </div>
@@ -73,13 +69,13 @@ const ContactSection = () => {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {/* Left Box */}
           <div className="bg-[#15803d] rounded-2xl p-10 text-white text-lg md:text-xl leading-relaxed text-center shadow-lg transition-transform duration-300 hover:scale-105">
-            C-Tons Solution helps businesses and renewable energy producers
+            C-Tons Solutions helps businesses and renewable energy producers
             create real climate impact through trusted carbon market solutions.
           </div>
 
           {/* Right Box */}
           <div className="bg-[#15803d] rounded-2xl p-10 text-white text-lg md:text-xl leading-relaxed text-center shadow-lg transition-transform duration-300 hover:scale-105">
-            Partner with C-Tons Solution to unlock the value of green energy and
+            Partner with C-Tons Solutions to unlock the value of green energy and
             contribute to a sustainable future.
           </div>
         </div>

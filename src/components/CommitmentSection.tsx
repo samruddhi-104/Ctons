@@ -6,7 +6,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const blocks = [
   {
     title: "Our Commitment to Climate Responsibility",
-    text: "At C-Tons Solution, integrity drives every decision we make. We are committed to promoting ethical participation in carbon markets and ensuring that every initiative contributes meaningfully to global climate goals. Our work is grounded in trust, compliance, and long-term environmental value, helping organizations confidently navigate the evolving sustainability landscape.",
+    text: "At C-Tons Solutions, integrity drives every decision we make. We are committed to promoting ethical participation in carbon markets and ensuring that every initiative contributes meaningfully to global climate goals. Our work is grounded in trust, compliance, and long-term environmental value, helping organizations confidently navigate the evolving sustainability landscape.",
     img: recycleImg,
     imgAlt: "Recycle nature",
     imgLeft: true,

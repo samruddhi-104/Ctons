@@ -53,7 +53,7 @@ export default function VoluntaryCarbonMarket() {
               </h2>
 
               <p className="text-base md:text-lg text-gray-700 leading-7">
-                C-Tons Solution supports organizations and project developers in registering carbon reduction projects within the voluntary carbon market. We assist in identifying suitable carbon standards, preparing project design documents, coordinating validation and verification processes, and ensuring compliance with global registries such as Verra, GCC, and UCR. 
+                C-Tons Solutions supports organizations and project developers in registering carbon reduction projects within the voluntary carbon market. We assist in identifying suitable carbon standards, preparing project design documents, coordinating validation and verification processes, and ensuring compliance with global registries such as Verra, GCC, and UCR. 
                 Once the project is successfully registered, verified emission reductions can be converted into carbon credits that can be traded in international markets.
               </p>
 
@@ -75,7 +75,7 @@ export default function VoluntaryCarbonMarket() {
 
             <div>
               <h3 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                Why Choose C-Tons Solution
+                Why Choose C-Tons Solutions
               </h3>
 
               <div className="space-y-4 text-lg text-gray-700 leading-7">

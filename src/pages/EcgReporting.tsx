@@ -30,7 +30,7 @@ const ESGReporting: React.FC = () => {
           <Link to="/" className="flex items-center gap-4">
             <img src={logo} className="w-16 h-16 rounded-full" />
             <div>
-              <h1 className="text-2xl font-bold">C-Tons Solution</h1>
+              <h1 className="text-2xl font-bold">C-Tons Solutions</h1>
               <p className="text-xs text-gray-500 italic">Passion meets Purpose</p>
             </div>
           </Link>
@@ -96,7 +96,7 @@ const ESGReporting: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="bg-[#3d6b5e] rounded-[3rem] p-10 md:p-16 min-h-[400px] shadow-xl w-full md:w-[70%] z-10">
               <h2 className="text-white text-xl font-semibold mb-10 italic">
-                Why Choose ESG Reporting With C-Tons Solution?
+                Why Choose ESG Reporting With C-Tons Solutions?
               </h2>
 
               <div className="grid md:grid-cols-2 gap-12">
@@ -132,7 +132,7 @@ const ESGReporting: React.FC = () => {
 
         <div className="text-center max-w-4xl mx-auto">
           <p className="text-gray-700 text-xl leading-relaxed font-medium">
-            C-Tons Solution assists organizations in preparing ESG (Environmental, Social, and Governance) 
+            C-Tons Solutions assists organizations in preparing ESG (Environmental, Social, and Governance) 
             reports aligned with global sustainability frameworks. We help companies transparently 
             communicate their sustainability performance to investors, stakeholders, and regulatory bodies.
           </p>
@@ -157,7 +157,7 @@ const ESGReporting: React.FC = () => {
             <div className="text-white space-y-10">
               <div>
                 <h2 className="text-3xl font-bold mb-6 text-[#a3e635]">
-                  Why Choose C-Tons Solution
+                  Why Choose C-Tons Solutions
                 </h2>
 
                 <ul className="space-y-3">
@@ -194,7 +194,7 @@ const ESGReporting: React.FC = () => {
       </section>
 
       <footer className="py-8 text-center text-gray-400 text-sm">
-        Copyright 2026 C-Tons Solution
+        Copyright 2026 C-Tons Solutions
       </footer>
     </div>
   );

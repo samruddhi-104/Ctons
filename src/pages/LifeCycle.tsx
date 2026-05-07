@@ -99,7 +99,7 @@ export default function LifeCycle() {
           {/* BENEFITS */}
           <div>
             <h3 className="mb-4 text-xl font-semibold text-[#356b55] text-center md:text-left">
-              Benefits of Choosing C-Tons
+              Benefits of Choosing C-Tons Soltions
             </h3>
 
             <ul className="space-y-3">

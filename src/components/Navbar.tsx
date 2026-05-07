@@ -24,7 +24,7 @@ const Navbar = () => {
           <div>
             {/* LARGER NAME SIZE */}
             <h1 className="text-2xl font-heading font-bold text-foreground leading-tight">
-              C-Tons Solution
+              C-Tons Solutions
             </h1>
             <p className="text-xs text-muted-foreground italic">Passion meets Purpose</p>
           </div>
