@@ -104,7 +104,7 @@ const ServicesPage = () => {
                   />
                   <div className="col-span-2">
                     <OptionButton
-                      label="ECG Reporting"
+                      label="ESG Reporting"
                       small
                       bgColor="bg-[#f0fdf4]"
                       onClick={() => navigate("/ecg-reporting")}
